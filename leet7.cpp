@@ -40,10 +40,10 @@ public:
 				}
 			} else {
 				for(int i = 0; i < 10; i++) {
-					if (n[i] < min_input[i]) {
+					if (n[i] < max_input[i]) {
 						flag_pass = true;
 						break;
-					} else if (min_input[i] < n[i]) {
+					} else if (maX_input[i] < n[i]) {
 						flag_pass = false;
 						break;
 					}
